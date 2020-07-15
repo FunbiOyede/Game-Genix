@@ -8,12 +8,14 @@
     NavigationPage.HasNavigationBar="False"
     mc:Ignorable="d">
     <ContentPage.Content>
-        <StackLayout>
-            <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Welcome to Xamarin.Forms!"
-                TextColor="Wheat"
-                VerticalOptions="CenterAndExpand" />
+        <StackLayout Margin="0">
+            <SearchBar
+                BackgroundColor="Gray"
+                FontSize="18"
+                Placeholder="Search"
+                PlaceholderColor="White"
+                TextColor="White" />
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -11,8 +11,8 @@
         <StackLayout>
             <Label
                 HorizontalOptions="CenterAndExpand"
-                Text="Welcome to Xamarin.Forms!"
-                TextColor="Wheat"
+                Text="Bookmarks"
+                TextColor="White"
                 VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
